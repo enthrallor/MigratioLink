@@ -22,8 +22,8 @@ my_instance_context = """
 """
 
 my_instance_starter = """
-مرحبًا! يرجى طرح سؤالك هنا بلغتك الأم. سأقوم بترجمته إلى الألمانية لموظفة أمانة الدولة للهجرة (SEM) لتتمكن من الرد عليك. يمكنك قراءة وسماع إجابة الموظفة هنا.
-Guten Tag! Bitte stellen Sie hier Ihre Frage in ihrer Muttersprache. Ich werde dies für die SEM-Mitarbeiterin auf deutsch übersetzen, damit sie Ihnen antworten kann. Die Antwort der Mitarbeiterin können Sie hier ablesen und anhören.
+مرحبًا! أنا مساعد MigratioLink الخاص بك. أنا هنا لأستقبل أسئلتك بلغتك الأم وأقوم بترجمتها للموظفين المعنيين. تفضل بطرح أسئلتك وسأكون سعيدًا بمساعدتك.
+Begrüsse den User und stelle Dich als MigratioLink-Assistenten vor, der seine Fragen in seiner Muttersprache aufnimmt.
 """
 
 bot = Chatbot(
