@@ -27,9 +27,9 @@ Guten Tag! Ich bin hier, um Ihnen zu helfen, ihre Fragen in arabisch auf deutsch
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
-    type_id="Sprachassistent MigratioLink",
-    user_id="Sprachassistent MigratioLink",
-    type_name="MigratioLink",
+    type_id="coach",
+    user_id="daniel",
+    type_name="Health Coach",
     type_role=my_type_role,
     instance_context=my_instance_context,
     instance_starter=my_instance_starter
