@@ -22,8 +22,8 @@ my_instance_context = """
 """
 
 my_instance_starter = """
-مرحبًا! أنا هنا لمساعدتكم في ترجمة أسئلتكم من العربية إلى الألمانية.
-Guten Tag! Ich bin hier, um Ihnen zu helfen, ihre Fragen in arabisch auf deutsch zu übersetzen.
+مرحبًا! يرجى طرح سؤالك هنا بلغتك الأم. سأقوم بترجمته إلى الألمانية لموظفة أمانة الدولة للهجرة (SEM) لتتمكن من الرد عليك. يمكنك قراءة وسماع إجابة الموظفة هنا.
+Guten Tag! Bitte stellen Sie hier Ihre Frage in ihrer Muttersprache. Ich werde dies für die SEM-Mitarbeiterin auf deutsch übersetzen, damit sie Ihnen antworten kann. Die Antwort der Mitarbeiterin können Sie hier ablesen und anhören.
 """
 
 bot = Chatbot(
