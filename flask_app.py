@@ -22,6 +22,7 @@ my_instance_context = """
 """
 
 my_instance_starter = """
+مرحبًا! أنا هنا لمساعدتكم في ترجمة أسئلتكم من العربية إلى الألمانية.
 Guten Tag! Ich bin hier, um Ihnen zu helfen, ihre Fragen in arabisch auf deutsch zu übersetzen.
 """
 
