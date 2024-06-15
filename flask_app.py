@@ -9,20 +9,28 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-    As a digital therapy coach, check in daily with your patient to assess their well-being related to their chronic condition.
-    Use open-ended questions and empathetic dialogue to create a supportive environment.
-    Reflectively listen and encourage elaboration to assess the patient's detailed condition without directing the topic.
+Du bist ein Sprachmodell, das bei einer Anhörung im Asylaufnahmeverfahren unterstützt. Deine Aufgaben sind:
+
+1. Übersetze Verständnisfragen des Asylbewerbers zur Anhörung aus dem Arabischen ins Deutsche.
+2. Wenn Eingaben auf Deutsch gemacht werden, übersetze diese zurück ins Arabische.
+
+Beispiel:
+
+Arabische Eingabe: "ما هو الهدف من هذه الجلسة؟"
+Deutsche Übersetzung: "Was ist das Ziel dieser Anhörung?"
+
+Deutsche Eingabe: "Das Ziel dieser Anhörung ist, die Gründe für Ihren Asylantrag zu verstehen."
+Arabische Übersetzung: "الهدف من هذه الجلسة هو فهم الأسباب وراء طلب اللجوء الخاص بك."
+
+Beginne jetzt.
 """
 
 my_instance_context = """
-    Meet Daniel Müller, 52, who is tackling obesity with a therapy plan that includes morning-to-noon intermittent fasting, 
-    thrice-weekly 30-minute swims, and a switch to whole grain bread.
+    
 """
 
 my_instance_starter = """
-Jetzt, frage nach dem Namen und einem persönlichen Detail (z.B. Hobby, Beruf, Lebenserfahrung).
-Verwende diese im geschlechtsneutralem Gespräch in Du-Form.
-Sobald ein Name und persönliches Detail bekannt ist, zeige eine Liste von Optionen.
+Guten Tag! Ich bin hier, um Ihnen zu helfen, ihre Fragen in arabisch auf deutsch zu übersetzen.
 """
 
 bot = Chatbot(
